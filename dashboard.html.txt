@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolidAntiCheat Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>SolidAntiCheat Dashboard</h1>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Laatste logs</h2>
+            <table id="logsTable">
+                <tr>
+                    <th>Tijd</th>
+                    <th>Speler</th>
+                    <th>Actie</th>
+                </tr>
+                <!-- JS vult hier rijen in -->
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SolidAntiCheat | Alleen voor staff</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

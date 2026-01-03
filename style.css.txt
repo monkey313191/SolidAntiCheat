@@ -1,0 +1,90 @@
+/* Algemene instellingen */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #e6f0ff; /* lichte blauwe achtergrond */
+    color: #ffffff; /* standaard witte tekst */
+}
+
+/* Header */
+header {
+    background-color: #0047b3; /* diep blauw */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #ffffff;
+}
+
+nav a {
+    color: #ffffff;
+    margin-left: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #99ccff; /* lichte hover blauwe tint */
+}
+
+/* Main content */
+main {
+    padding: 2rem;
+}
+
+/* Secties */
+section {
+    margin-bottom: 2rem;
+}
+
+/* Server status box */
+.server-status {
+    background-color: #3399ff; /* medium blauw voor box */
+    padding: 1rem;
+    border-radius: 10px;
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Intro sectie */
+.intro {
+    background-color: #0073e6; /* iets donkerder blauw */
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #0047b3; /* gelijk aan header */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: #ffffff;
+}
+
+/* Dashboard table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #99ccff;
+}
+
+th {
+    background-color: #0073e6;
+}
+
+tr:hover {
+    background-color: #3399ff;
+}
